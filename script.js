@@ -309,7 +309,7 @@ function getFestival() {
     ) {
         document.getElementById(
             "image"
-        ).src = `https://i1.wp.com/gangatimes.com/wp-content/uploads/2022/07/Eid-Ul-Adha-Pictures-1200x684-1-edited.png`;
+        ).src = `/img/eid ul adha.jpg`;
         document.getElementById("date").innerHTML = todayDate + " ,";
         document.getElementById("month").innerHTML = months[todayMonth];
         document.getElementById("day").innerHTML = days[todayDay] + " , ";
